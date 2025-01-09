@@ -16,6 +16,7 @@ class Rectangle:
         return 2 * (self.length + self.breadth)
 
 def main():
+    """ Contains the default lines to be executed """
     length = float(input("Enter the length of the rectangle: "))
     breadth = float(input("Enter the breadth of the rectangle: "))
     rect = Rectangle(length, breadth)
