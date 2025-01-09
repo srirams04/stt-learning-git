@@ -12,7 +12,7 @@ class Rectangle:
         return self.length * self.breadth
 
     def perimeter(self):
-	""" Calculating perimeter """
+        """ Calculating perimeter """
         return 2 * (self.length + self.breadth)
 
 def main():
